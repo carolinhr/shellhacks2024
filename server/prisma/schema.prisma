@@ -1,0 +1,63 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  user_id         Int      @id @default(autoincrement())
+  username        String   @unique
+  password        String
+  user_pathway    String?
+
+  likedPosts      Post[]   @relation("UserLikesPost")
+  comments        Comment[] @relation("UserComments")
+  posts           Post[]    @relation("UserPosts")
+}
+
+model Post {
+  post_id         Int      @id @default(autoincrement())
+  imageUrl        String
+  text            String
+  user_id         Int
+  user            User     @relation("UserPosts", fields: [user_id], references: [user_id])
+  likes           Int      @default(0)
+
+  likedBy        User[]    @relation("UserLikesPost")
+  comments       Comment[]  @relation("PostComments")
+}
+
+model Comment {
+  id              Int      @id @default(autoincrement())
+  text            String
+  user_id         Int
+  user            User     @relation("UserComments", fields: [user_id], references: [user_id])
+  post_id         Int
+  post            Post     @relation("PostComments", fields: [post_id], references: [post_id])
+}
+
+model Pathways {
+  pathway_id      Int      @id @default(autoincrement())
+  pathway_name    String
+  pathway_definition String
+  pathway_role    String[]  
+  pathway_clubs   String[]  
+  pathway_flowchart String
+}
+
+model Chat {
+  chat_id         Int      @id @default(autoincrement())
+  conversationId  String
+  prompt          String
+  response        String
+  createdAt       DateTime @default(now())
+}
