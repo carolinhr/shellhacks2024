@@ -22,12 +22,20 @@ app.use(cors({
 }));
 
 
+const userRoutes = require("./Routes/userRoutes");
+
+
+// Routes
+app.use("/users", userRoutes);
+
+
+
+
 
 app.get("/", (req, res) => {
     res.send("Hello from the other side");
   });
 
-  
 // Start server
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
