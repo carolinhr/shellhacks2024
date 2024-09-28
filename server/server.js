@@ -23,10 +23,12 @@ app.use(cors({
 
 
 const userRoutes = require("./Routes/userRoutes");
+const postRoutes = require("./Routes/postRoutes")
 
 
 // Routes
 app.use("/users", userRoutes);
+app.use("/post", postRoutes)
 
 
 
