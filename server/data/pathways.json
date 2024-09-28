@@ -5,7 +5,7 @@
             "pathway_name": "Computer Science",
             "pathway_definition":"Computer Science is the study of computers and computational systems, encompassing both hardware and software. It involves understanding algorithms, programming languages, data structures, and the theoretical foundations of computation. Computer scientists design, develop, and analyze software applications, systems, and networks to solve complex problems and improve technology. ",
             "pathway_role": ["Product Manager", "UI/UX Designer", "Software Engineer", "Mobile App Developer", "Full-Stack Developer", "Back-End Developer"],
-            "pathway_clubs": ["Break Through Tech, Women in Computer Science, INIT FIU"],
+            "pathway_clubs": ["Break Through Tech", "Women in Computer Science", "INIT FIU"],
             "pathway_flowchart": "file:///Users/emely/Documents/CS%20Flowchart.png"
         },
         {
@@ -22,7 +22,7 @@
          "pathway_name": "Information Technology", 
          "pathway_definition": "Information Technology (IT) is all about using computers and technology to manage and process information. It involves learning how to set up and maintain computer systems, networks, and software applications to help people and organizations work more efficiently. IT professionals support users, troubleshoot problems, and ensure that technology runs smoothly. They play a key role in keeping data secure and making sure that everyone has the tech tools they need to succeed.",
          "pathway_role": ["Network Administrator", "Help Desk Technician", "Systems Administrator", "Database Administrator", "IT Project Manager", "Web Developer"],
-         "pathway_clubs" :["INIT FIU, Tech Flow, Women in Computer Science"],
+         "pathway_clubs" :["INIT FIU", "Tech Flow","Women in Computer Science"],
          "pathway_flowchart" : "file:///Users/emely/Documents/it%20flow.png"   
             
         },

@@ -25,12 +25,15 @@ app.use(cors({
 const userRoutes = require("./Routes/userRoutes");
 const postRoutes = require("./Routes/postRoutes");
 const commentRoutes = require("./Routes/commentRoute");
+const pathwayRoutes = require("./Routes/pathwayRoute");
+
 
 
 // Routes
 app.use("/users", userRoutes);
 app.use("/post", postRoutes);
 app.use("/comments", commentRoutes);
+app.use("/pathways", pathwayRoutes);
 
 
 
