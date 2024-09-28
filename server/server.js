@@ -23,12 +23,14 @@ app.use(cors({
 
 
 const userRoutes = require("./Routes/userRoutes");
-const postRoutes = require("./Routes/postRoutes")
+const postRoutes = require("./Routes/postRoutes");
+const commentRoutes = require("./Routes/commentRoute");
 
 
 // Routes
 app.use("/users", userRoutes);
-app.use("/post", postRoutes)
+app.use("/post", postRoutes);
+app.use("/comments", commentRoutes);
 
 
 

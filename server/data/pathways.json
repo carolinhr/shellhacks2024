@@ -1,0 +1,39 @@
+{
+    "pathways": [
+        {   
+            "pathway_id": 1,
+            "pathway_name": "Computer Science",
+            "pathway_definition":"Computer Science is the study of computers and computational systems, encompassing both hardware and software. It involves understanding algorithms, programming languages, data structures, and the theoretical foundations of computation. Computer scientists design, develop, and analyze software applications, systems, and networks to solve complex problems and improve technology. ",
+            "pathway_role": ["Product Manager", "UI/UX Designer", "Software Engineer", "Mobile App Developer", "Full-Stack Developer", "Back-End Developer"],
+            "pathway_clubs": ["Break Through Tech, Women in Computer Science, INIT FIU"],
+            "pathway_flowchart": "file:///Users/emely/Documents/CS%20Flowchart.png"
+        },
+        {
+            "pathway_id": 2,
+            "pathway_name": "Cybersecurity",
+            "pahthway_definition": "Cybersecurity is all about protecting computers, networks, and data from hackers and digital threats. It involves learning how to spot vulnerabilities, defend against attacks, and keep information safe. Cybersecurity experts work to secure systems and prevent breaches, ensuring that personal data, online accounts, and entire networks stay protected. It's a fast-growing field that plays a huge role in keeping the digital world safe.",
+            "pathway_role":["Security Analyst","Penetration Tester (Ethical Hacker)", "Incident Response","Security Consultant", "Crytographer", "Security Architect"],
+            "pathway_clubs": ["Break Through Tech", "Women in CyberSecuriy", "Tech Flow"],
+            "pathway_flowchart": "file:///Users/emely/Documents/cyber.png"
+            
+        },
+        {
+         "pathway_id": 3,
+         "pathway_name": "Information Technology", 
+         "pathway_definition": "Information Technology (IT) is all about using computers and technology to manage and process information. It involves learning how to set up and maintain computer systems, networks, and software applications to help people and organizations work more efficiently. IT professionals support users, troubleshoot problems, and ensure that technology runs smoothly. They play a key role in keeping data secure and making sure that everyone has the tech tools they need to succeed.",
+         "pathway_role": ["Network Administrator", "Help Desk Technician", "Systems Administrator", "Database Administrator", "IT Project Manager", "Web Developer"],
+         "pathway_clubs" :["INIT FIU, Tech Flow, Women in Computer Science"],
+         "pathway_flowchart" : "file:///Users/emely/Documents/it%20flow.png"   
+            
+        },
+        {
+            "pahthway_id":4,
+            "pathway_name": "Data Science & AI",
+            "pahthway_definition": "Data Science and Artificial Intelligence (AI) focus on analyzing data and building intelligent systems to solve complex problems. In this field, you'll learn how to work with large datasets, develop machine learning models, and create algorithms that help machines make decisions or predictions. Data scientists and AI professionals apply these skills to improve everything from business strategies to scientific research. If you're interested in math, statistics, and technology, and enjoy solving challenges, this path offers opportunities to drive innovation and make impactful contributions to various industries.",
+            "pathway_role" : ["Data Scientist", "AI Research Scientist", "Data Analyst", "Business Intelligence Analyst", "AI Product Manager"],
+            "pathway_clubs" : ["AI & Coding Club", "AI @ FIU", "Code Crunch"],
+            "pathway_flowchart": "file:///Users/emely/Documents/data%20science.png"
+
+        }
+        ]
+    }
