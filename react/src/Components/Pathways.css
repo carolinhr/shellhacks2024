@@ -1,0 +1,26 @@
+.rounded-rectangle {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Clip the image to the rectangle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for depth */
+  }
+  .RolesRow1{
+    display:flex;
+    
+   
+    
+  }
+  .RolesRow2{
+    display:flex;
+  }
+  .Roles-header{
+    text-align: center;
+  }
+
+  .Club-Photos{
+    display: flex;
+  }
+  .Club-Photos2{
+    display: flex;
+  }

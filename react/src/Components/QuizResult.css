@@ -1,8 +1,7 @@
-.rounded-rectangle {
-    background-color: #f0f0f0;  /* Background color */
-    border-radius: 20px;        /* Rounded corners */
+.QuizResult {
+    background-color:#91ade5; /* Background color */
+    border-radius: 80px;        /* Rounded corners */
     padding: 20px;              /* Padding inside the rectangle */
-    max-width: 400px;           /* Optional: set a max width */
     margin: 20px auto;          /* Center the rectangle horizontally */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Optional: shadow for depth */
   }
@@ -16,4 +15,6 @@
     text-align: left;           /* Left-align the paragraph */
     margin-top: 10px;          /* Space between header and text */
   }
-  
+  .image {
+    display: flex;            
+  }
