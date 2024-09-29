@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomePage.css';
+import PhotoSquares from './PhotoSquares';
 
 const HomePage = () => {
   return (
@@ -11,21 +12,39 @@ const HomePage = () => {
       <main className="container">
         <section className="explore">
           <h2>Explore Your Future</h2>
-          <p>Discover pathways and opportunities that align with your passions and goals.</p>
+          <p>Tech is for everyone. Take a personality 
+          quiz to discover the best pathway for you</p>
           <a href="#quiz" className="button">Take the Quiz</a>
         </section>
 
-        <section className="statistics">
-          <h2>Statistics</h2>
+        <section style={{backgroundColor:'#081E3F', color:'white' }}className="statistics">
+
+          <h2>The Opportunities are endless</h2>
           <p>Learn about the various pathways and their success rates.</p>
           <a href="#statistics" className="button">View Statistics</a>
+          <ul style = {{color: 'white'}}className="horizontal-list">
+                    <li><a href="/">25%</a></li>
+                    <li><a href="/pathways">Women in Tech Organizations</a></li>
+                    <li><a href="/conect">Women in Computing Majors</a></li>
+                </ul>
+          <ul style = {{color: 'white'}}className="horizontal-list">
+                    <li><a href="/">Women currently working in tech</a></li>
+                    <li><a href="/pathways">Women in Tech Organizations</a></li>
+                    <li><a href="/conect">Women in Computing Majors</a></li>
+                </ul>
         </section>
 
         <section className="creators">
-          <h2>Meet the Creators</h2>
-          <p>Find out more about the team behind this platform.</p>
-          <a href="#creators" className="button">Meet the Creators</a>
-        </section>
+          <h2>Meet Alumni</h2>
+          <p>You can do it too.</p>
+          <div className="photo-container">
+       <PhotoSquares />
+       <PhotoSquares />
+       <PhotoSquares />
+       </div>
+       </section>
+
+
       </main>
 
       <footer>

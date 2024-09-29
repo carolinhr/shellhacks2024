@@ -9,11 +9,11 @@
   }
   
   .container {
-    padding: 20px;
+    padding: 40px;
   }
   
   section {
-    margin: 20px 0;
+    margin: 200px ;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -37,5 +37,25 @@
     margin-top: 20px;
     padding: 10px;
     background-color: #f1f1f1;
+  }
+  
+  .horizontal-list {
+    list-style-type: none;  /* Remove bullets */
+    padding: 0;  /* Remove default padding */
+    display: flex;  /* Flexbox to align items horizontally */
+    justify-content: center;  /* Center the list items */
+    gap: 20px;  /* Add space between list items */
+    margin-top: 20px;
+  }
+  
+  .horizontal-list li {
+    display: inline-block;  /* Make list items display inline */
+  }
+  
+  .horizontal-list li a {
+    text-decoration: none;  /* Remove underlines */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
   }
   

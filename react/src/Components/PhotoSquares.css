@@ -1,0 +1,20 @@
+.vertical-rectangle {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Clip the image to the rectangle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for depth */
+  }
+  
+  .rectangle-image {
+    width: 100%; /* Full width inside the rectangle */
+    height: 100%; /* Full height inside the rectangle */
+    object-fit: cover; /* Maintain aspect ratio, fill container */
+  }
+  
+  .photo-container {
+    display: flex;  /* Use flexbox for horizontal alignment */
+    justify-content: center;  /* Center align all items */
+    gap: 20px;  /* Space between each photo square */
+    margin-top: 20px;
+  }
