@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require('cors');
 const morgan = require("morgan");
 require("dotenv").config();
+const chatRoutes = require("./Routes/chatRoute");
 
 
 const app = express();
@@ -35,6 +36,7 @@ app.use("/post", postRoutes);
 app.use("/comments", commentRoutes);
 app.use("/pathways", pathwayRoutes);
 
+app.use("/api/chat", chatRoutes);
 
 
 

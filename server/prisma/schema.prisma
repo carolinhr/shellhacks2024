@@ -48,6 +48,7 @@ model Comment {
 model Pathways {
   pathway_id      Int      @id @default(autoincrement())
   pathway_name    String
+  pathway_qualification String[]
   pathway_definition String
   pathway_role    String[]  
   pathway_clubs   String[]  
