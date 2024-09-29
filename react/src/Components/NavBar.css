@@ -1,0 +1,29 @@
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+.navBar h1 {
+    margin: 0;
+}
+.navBar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Use flexbox to arrange items in a row */
+  }
+  
+  .navBar li {
+    margin-right: 20px; /* Add space between items */
+  }
+  
+  .navBar li a {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Change link color */
+  }
+  
+  .navBar li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }

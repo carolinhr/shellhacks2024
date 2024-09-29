@@ -1,0 +1,20 @@
+.rounded-rectangle {
+    background-color: #E1EBFF; /* Background color */
+    border-radius: 20px;      /* Rounded corners */
+    padding: 20px;             /* Padding inside the rectangle */
+    margin: 20px auto;         /* Center the rectangle horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    max-width: 400px;          /* Optional: Set a maximum width */
+    text-align: center;        /* Center text inside the rectangle */
+}
+
+.rectangle-title {
+    margin: 0;                 /* Remove default margin */
+    font-size: 1.5em;          /* Title font size */
+    color: #004CA4;               /* Title color */
+}
+
+.rectangle-content {
+    color: #666;               /* Text color */
+    margin-top: 10px;         /* Space between title and content */
+}

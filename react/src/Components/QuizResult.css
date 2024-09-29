@@ -1,0 +1,20 @@
+.QuizResult {
+    background-color:#91ade5; /* Background color */
+    border-radius: 80px;        /* Rounded corners */
+    padding: 20px;              /* Padding inside the rectangle */
+    margin: 20px auto;          /* Center the rectangle horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Optional: shadow for depth */
+  }
+  
+  .rectangle-header {
+    text-align: left;           /* Left-align the header */
+    margin: 0;                  /* Remove default margin */
+  }
+  
+  .rectangle-text {
+    text-align: left;           /* Left-align the paragraph */
+    margin-top: 10px;          /* Space between header and text */
+  }
+  .image {
+    display: flex;            
+  }
