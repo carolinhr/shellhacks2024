@@ -1,10 +1,29 @@
-# Break Through Tech Challenge
-**3 Judges**
-    
-    **Computing Everyone:**
-    
-    FIU's Knight Foundation School of Computing & Information Sciences is one of the top schools for computing, and it is a highly inclusive and welcoming place for students of all abilities. Yet, a mere 24% of students at the school are those who identify as women. We need HELP to figure out how we can tell our school's story better! Here's our challenge: build a project involving AI to help make the school and major more appealing and welcoming to students who identify as women!
-    
-    **Prize**: 
-    
-    - Amazon Echo
+# HerTechPath
+
+## Inspiration
+In the rapidly evolving tech industry, women often face unique challenges that can hinder their entry and progression. Despite significant advancements toward gender equality, many women encounter stereotypes and biases that suggest they are less capable in technical roles. This stigma can create a daunting environment, where women may doubt their skills or feel compelled to prove themselves constantly.
+Furthermore, the underrepresentation of women in tech can lead to feelings of isolation. In spaces dominated by men, women may struggle to find mentors, role models, and support networks, making it harder to navigate their careers. The lack of visibility for women in tech roles perpetuates the misconception that the field is not designed for them, discouraging young girls from pursuing their interests in technology.
+
+## What it does
+At HerTechPath, we aim to dismantle these barriers by providing resources, community support, and pathways tailored for women. Our mission is to empower the next generation of female tech leaders to embrace their potential and redefine what it means to be a woman in tech. Here are some key features:
+1. **Personalized Quiz**
+Discover which computer science pathway aligns with your interests and strengths. Our engaging quiz, powered by Gemini's API, evaluates your preferences and aspirations, pairing you with options tailored to your unique profile.
+2. **Pathway Exploration**
+Dive deeper into various tech pathways, including software development, data science, cybersecurity, and more. Each pathway includes detailed descriptions, required skills, and potential career opportunities to help you make informed decisions.
+3. **Community Blog**
+Read inspiring testimonies from women in tech who share their journeys, challenges, and successes. Our blog serves as a platform for stories that empower and motivate, fostering a sense of community among aspiring tech leaders. It even supports engagement with others through likes and comments.
+
+## How we built it
+The HerTechPath project was developed using the PeRN Stack, consisting of PostgreSQL, Express, React, and Node.js, to create a robust and scalable platform tailored to support women in tech. On the backend, we built a custom PostgreSQL database to manage user data, blog posts, comments, and quiz results. We also implemented basic CRUD (Create, Read, Update, Delete) operations, allowing users to interact fully with blog content and user profiles. Additionally, we integrated the Gemini API to power the personalized quiz feature, which analyzes user responses to recommend suitable tech pathways based on their interests and strengths. Finally, on the front-end, we focused on creating a clean and user-friendly interface using CSS for styling, ensuring an intuitive user experience.
+
+## Challenges we ran into
+As first-time hackers, we encountered several challenges throughout the development process. One of the initial hurdles was downloading dependencies and managing package versions, which proved to be time-consuming and occasionally led to compatibility issues. Additionally, working across multiple computers required us to effectively use version control systems like Git, which was a learning experience for many of us. Coordinating changes and avoiding merge conflicts became a key challenge. Lastly, we faced a lack of front-end knowledge, which made designing and implementing the user interface more difficult. However, these challenges provided valuable learning experiences and helped us grow our technical skills throughout the project.
+
+## Accomplishments that we're proud of
+We're proud of several key accomplishments from this project. First, we successfully built a custom database, allowing us to manage user data, blog posts, and quiz results efficiently. Another major achievement was integrating AI through the Gemini API, powering the personalized quiz feature that matches users with tech pathways based on their interests. We also conducted rigorous functionality testing using Postman, ensuring that all backend operations performed smoothly and without issues. Despite having no prior front-end experience, we managed to design and implement a clean, functional user interface, which was a significant accomplishment in itself. Lastly, we successfully implemented the PeRN Stack (PostgreSQL, Express, React, and Node.js), gaining valuable hands-on experience with full-stack development.
+
+## What we learned
+Through this project, we learned how to effectively manage a full-stack development process, gaining hands-on experience with the PeRN Stack and building a custom database from scratch. We enhanced our understanding of API integration by working with the Gemini API and developed essential skills in version control to collaborate seamlessly across multiple computers. Additionally, despite limited front-end experience, we successfully designed a user-friendly interface while deepening our knowledge of CSS and responsive design. This project not only expanded our technical abilities but also taught us how to problem-solve and work efficiently as a team.
+
+## What's next for HerTechPath
+Next steps for HerTechPath could involve expanding its features to provide more comprehensive support for women pursuing careers in tech. Introducing a mentorship program would allow users to connect with experienced professionals through virtual mentoring sessions or webinars. Access to interactive learning resources, like coding tutorials and webinars, could offer hands-on experience in areas like web development and data science. HerTechPath is motivated to partner with industry sponsors to offer scholarships or grants for women interested in tech education, boot camps, or certifications. This would help remove financial barriers and encourage more women to take steps toward tech careers.
